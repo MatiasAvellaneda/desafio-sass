@@ -1,0 +1,32 @@
+header nav {
+  background-color: black; }
+  header nav div a {
+    color: aliceblue !important; }
+  header nav div button {
+    background-color: aliceblue !important; }
+
+section {
+  background-color: darkolivegreen; }
+  section h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue !important; }
+  section p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue; }
+  section img {
+    width: 20%; }
+  section button {
+    color: aliceblue;
+    background-color: #313131; }
+
+footer {
+  background-color: black; }
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer ul li {
+      list-style: none; }
+      footer ul li a {
+        color: aliceblue;
+        text-decoration: none; }

@@ -1,0 +1,46 @@
+header{ 
+    nav{
+    background-color: black;
+        div{
+            a{
+               color: aliceblue !important; 
+            }
+            button{
+                background-color: aliceblue !important;
+            }
+        }
+}
+}
+section{
+    background-color: darkolivegreen;
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue !important;
+    }
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+    }
+    img{
+        width: 20%;
+    }
+    button{
+        color: aliceblue;
+        background-color: rgb(49, 49, 49);
+    }
+}
+footer{
+    background-color: black;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+            list-style: none;
+            a{
+                color: aliceblue;
+                text-decoration: none;
+            }
+        }
+    }
+}
