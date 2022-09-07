@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasAvellaneda/desafio-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MatiasAvellaneda/desafio-sass/issues"
+  },
+  "homepage": "https://github.com/MatiasAvellaneda/desafio-sass#readme",
   "description": ""
 }

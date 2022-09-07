@@ -1,36 +1,40 @@
+@import "variables";
+
+
+
 header{ 
     nav{
-    background-color: black;
+    background-color: $f-nav;
         div{
             a{
-               color: aliceblue !important; 
+               color: $l-nav !important; 
             }
             button{
-                background-color: aliceblue !important;
+                background-color: $f-boton-nav !important;
             }
         }
 }
 }
 section{
-    background-color: darkolivegreen;
+    background-color: $f-body;
     h2{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: aliceblue !important;
+        font-family: $fuente-body;
+        color: $l-body !important;
     }
     p{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: aliceblue;
+        font-family: $fuente-body;
+        color: $l-body;
     }
     img{
         width: 20%;
     }
     button{
-        color: aliceblue;
-        background-color: rgb(49, 49, 49);
+        color: $l-boton-body;
+        background-color: $f-boton-body;
     }
 }
 footer{
-    background-color: black;
+    background-color: $f-footer;
     ul{
         display: flex;
         justify-content: center;
@@ -38,7 +42,7 @@ footer{
         li{
             list-style: none;
             a{
-                color: aliceblue;
+                color: $l-footer;
                 text-decoration: none;
             }
         }
